@@ -1,0 +1,421 @@
+*{
+	margin: 0px;
+	font-family: Verdana;
+
+}
+.header{
+	border:1px solid black;
+	box-shadow: 0px 0px 25px 0px #000 inset;
+}
+
+.providnost{
+	opacity: 0.9;
+}
+.naslov{
+	text-align: center;
+	
+	margin-bottom: 4%;
+	margin-top: 10%;
+	font-style: oblique 50deg;
+	font-size:50px;
+	text-shadow: 2px 2px 5px gray;
+	font-weight: bold;
+	
+}
+.textNav{
+	font-size: 20px;
+}
+
+.logo{
+	width: 150px;
+	height: 90px;
+	object-fit: cover;
+	margin-top:-10px;
+}
+
+#logo-i-social{
+    display: flex;
+}
+
+#social-holder{
+	flex-grow: 1;
+	text-align: right;
+}
+#social-holder{
+	text-decoration: none;
+}
+#social-holder a img{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#pocetna{
+	text-align: center;
+	background-image: url("slikeSajta/slika2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 105px;
+
+}
+.minNaslov{
+    color:white;
+	font-size: 40px;
+	padding-top: calc(45vh - 250px);
+	text-shadow: 2px 2px 5px black;
+	font-weight: bold;
+}
+
+.dark-box{
+	background-color: #22222251;
+	font-size: 20pt;
+	padding: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	text-shadow: 4px 4px 5px black;
+
+}
+
+.container-fluid{
+overflow: hidden;
+}
+
+.naslovModela{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.si{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border:1px solid black;
+	box-shadow: 10px 1px 10px 2px black;
+	transition: .3s ease-in-out;
+}
+.si:hover{
+	opacity: 0.9;
+	transform: scale(1.1);
+}
+
+@media only screen and (max-width: 765px) {
+  .si{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+}
+.poz{
+	box-shadow: 0px 10px 25px 5px #000 inset;
+	padding: 35px;
+}
+
+.poz p{
+	text-align:center;
+}
+
+.opisProizvoda{
+	display: flex;
+	margin-top: 4%;
+}
+
+
+.l{
+	flex-grow: 1;
+	text-align:left;
+	font-weight: bold;
+	font-size: 15px;
+}
+.r{
+	flex-grow: 1;
+	text-align:right;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.oP{
+	font-size: 15pt;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.drustvenemreze{
+	width: 50px;
+	height: 50px;
+}
+.drustvenemrezef{
+	width: 63px;
+	height: 63px;
+	margin-right: 5%;
+}
+.futer{
+	background-color: black;
+	color: white;
+	font-size: 18px;
+}
+.u{
+	display: block;
+	text-align:left;
+	margin-left: 10%;
+
+}
+.sadrzaj{
+	line-height: 80%;
+}
+.odvojif{
+	margin-top: 10%;
+	font-size: 30px;
+}
+@media only screen and (max-width: 765px) {
+  .odvojif{
+	margin-top: 2%;
+}
+.u{
+	text-align: center;
+	margin-left: 0%;
+	}
+}
+  
+}
+.futer a{
+	margin-left: 10px;
+}
+
+.logo1{
+	width: 70%;
+	height: 70%;
+	object-fit: cover;
+}
+
+
+.popup{
+	position: fixed;
+	top: 0px;
+	display: none;
+	 background-color: rgb(0,0,0); 
+     background-color: rgba(0,0,0,0.9); 
+     z-index: 1; 
+     padding-top: 5%;
+     padding-left: 5%;
+     padding-bottom: 2%;
+     padding-right: 5%;
+     width: 100%;
+     height: 100%;
+      overflow: auto;
+  
+}
+
+
+.popup.visible{
+	display: block;
+
+	
+}
+.popup > img{
+	margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  user-select: none; 
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+
+.close{
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+
+}
+@media only screen and (max-width: 700px){
+  .popup > img {
+    width: 100%;
+    margin-top: 10%;
+  }
+  
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+
+/**galerija**/
+
+.galerijaN{
+	font-weight: bold;
+	text-align:center;
+	color: white;
+	font-size: 48px;
+	margin-top: 115px;
+}
+@media only screen and (max-width: 765px) {
+  .galerijaN{
+  	font-size: 30px;
+  }
+}
+
+.galerijaSlike{
+	width: 100%;
+	height: 160px;
+	margin-bottom: 5%;
+	transition: .3s ease-in-out;
+	user-select: none; 
+}
+@media only screen and (max-width: 765px) {
+  .galerijaSlike{
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+
+}
+}
+.galerijaSlike:hover{
+
+transform: scale(1.1);
+}
+
+.topPozicija{
+	position: relative;
+}
+.nevidljiv{
+	display: none;
+}
+
+.o{
+background: rgb(199,199,199);
+background: linear-gradient(90deg, rgba(199,199,199,0.9360119047619048) 0%, rgba(110,110,110,0.938813025210084) 80%, rgba(6,6,6,0.908000700280112) 100%);
+
+}
+
+
+.rasporedDugmadi{
+	display: flex;
+	margin-top: 4%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+
+.levo{
+	flex-grow: 1;
+	text-align:left;
+	font-weight: bold;
+	font-size: 45px;
+	color: white;
+	cursor: pointer;
+	user-select: none; 
+}
+.desno{
+	flex-grow: 1;
+	text-align:right;
+	font-weight: bold;
+	font-size: 45px;
+	color: white;
+	cursor: pointer;
+	user-select: none; 
+}
+
+.video{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.centered {
+  text-shadow: 4px 4px 5px black;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.onama{
+	
+	padding: 20px;
+	border:1px solid black;
+	box-shadow: 0px 0px 25px 0px #000 inset;
+}
+
+.onama p{
+	margin-top: 3%;
+	font-size: 24px;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-indent: 2em;
+}
+.onama h2{
+	margin-top: 4%;
+	text-align: center;
+}
+
+.odvojikontakt{
+	margin-top: 120px;
+}
+.adresa{
+	width: 100%;
+}
+
+.pozicioniranje{
+text-align: center;
+margin-top: 50px;
+display: block;
+font-size: 18px;
+}
+.pozicioniranje img{
+	
+	width: 60px; 
+	height: 60px;
+}
+.y{
+	margin-top: 2%;
+}
+
+
+
+#pocetnaa{
+	text-align: center;
+	background-image: url("slikeSajta/onama.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 105px;
+	height: 400px;
+
+}
+
+.minNaslovv{
+    color:white;
+	font-size: 40px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-shadow: 3px 3px 2px black;
+	font-weight: bold;
+	background-color: #22222251;
+	padding: 25px;
+}
+

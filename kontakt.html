@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="slikeSajta/favicon.ico" type="image/x-icon">
+	<title>Kontakt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<title></title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark  providnost fixed-top" id="navbar">
+      <a class="navbar-brand"id="vts" href="#"><img src="slikeSajta/logo1.ico" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  
+    <ul class="navbar-nav textNav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" id="meni"href="index.html">Početna </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"id="meni" href="onama.html">O nama</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" id="meni"href="galerija.html">Naši radovi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="meni"href="kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+
+<div class="container-fluid odvojikontakt">
+	<div class="row">
+		
+			
+				<div class="col-md-8">
+					
+               <form class="form-horizontal" role="form" method="post" action="">
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="name"><span class="required"></span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 2 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg> Ime:</label>
+        <div class="col-sm-10 inputGroupContainer">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="name" type="text" required class="form-control" id="name"  title="name">
+          </div>
+        </div>
+      </div>
+
+      <!--Email Address-->
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="Email"><span class="required"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 2 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+        </svg>
+       </span>Email</label>
+        <div class="col-sm-10 inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input name="Email" type="email" required class="form-control" id="email"  title="Email">
+          </div>
+        </div>
+      </div>
+
+      <!--Phone Optional-->
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="Phone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 1 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg> Telefon:</label>
+        <div class="col-sm-10 inputGroupContainer">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+            <input name="Phone" type="email" class="form-control" id="phone"  title="Phone no."></span>
+          </div>
+        </div>
+      </div>
+      <!--Text Area-->
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="message"><span class="required">
+        	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+             <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+             </svg>
+        </span> Poruka:</label>
+        <div class="col-sm-10 inputGroupContainer">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+
+            <textarea class="form-control" name="message" rows="4"></textarea>
+          </div>
+        </div>
+      </div>
+
+
+      <!--SEND Button-->
+
+      <div class="form-group">
+        <label class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-warning">Pošalji <span class="glyphicon glyphicon-send"></span>
+          </button>
+        </div>
+      </div>
+
+    </form>
+				</div>
+
+				<div class="col-md-4">
+					<div class="pozicioniranje">
+					<img src="slikeSajta/emailll.png"><p>dekokamenbp@gmail.com</p>
+					<img src="slikeSajta/tell.png"><p>+381 69 237 1 757<br>+381 62 860 1 917</p>
+					<img src="slikeSajta/adresa.png"><p>Njegoševa 19, Bačka Palanka</p>
+					
+				    </div>
+				</div>
+	</div>
+</div>
+
+
+<script src="main.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
